@@ -1,0 +1,102 @@
+@font-face {
+    font-family: LexendDeca-Regular;
+    src: url(LexendDeca-Regular.ttf);
+}
+
+@font-face {
+    font-family: BigShoulderDisplay-Bold;
+    src: url(BigShouldersDisplay-Bold.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f3f4f5;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    margin: 0 150px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 40px;
+}
+
+.card h1 {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: BigShoulderDisplay-Bold;
+}
+
+.card p {
+    color: hsl(0, 0%, 95%);
+    font-family: LexendDeca-Regular;
+}
+
+.card a {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+    border-radius: 15px;
+    width: max-content;
+    font-family: LexendDeca-Regular;
+}
+
+
+#sedan {
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#sedan a {
+    color: hsl(31, 77%, 52%);
+}
+
+#sedan a:hover {
+    color: hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+    background-color: hsl(31, 77%, 52%);
+}
+
+#suvs {
+    background-color: hsl(184, 100%, 22%);
+}
+
+#suvs a {
+    color: hsl(184, 100%, 22%);
+}
+
+#suvs a:hover {
+    color: hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+    background-color: hsl(184, 100%, 22%);
+}
+
+#luxury {
+    background-color: hsl(179, 100%, 13%);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#luxury a {
+    color: hsl(179, 100%, 13%);
+}
+
+#luxury a:hover {
+    color: hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+    background-color: hsl(179, 100%, 13%);
+}
