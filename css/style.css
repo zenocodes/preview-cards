@@ -100,3 +100,21 @@ main {
     border: 2px solid hsl(0, 0%, 95%);
     background-color: hsl(179, 100%, 13%);
 }
+
+@media screen and (max-width: 600px){
+    body {
+        height: auto;
+        padding: 15px;
+    }
+
+    main {
+        flex-direction: column;
+        gap: 10px;
+        margin: 0;
+    }
+
+    .card {
+        border-radius: 10px;
+        width: 100%;
+    }
+}
